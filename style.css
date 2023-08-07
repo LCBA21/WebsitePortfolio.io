@@ -1,0 +1,50 @@
+@import url("Nav.css");
+@import url("AboutUs.css");
+@import url("Contact.css");
+@import url("Portfolio.css");
+@import url("Services.css");
+@import url("Responsive.css");
+@import url("ModeChange.css");
+
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #080808;
+    color: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.Section-ColorOne{
+    background-color: #adadad1e;
+}
+
+
+
+
+
+/* css to hide dropdwon element */
+nav .fa-regular{
+display: none;
+}
+
+nav .fa-solid{
+    display: none;
+    }
+    
+
+.list-item {
+    color: #080808;
+}
+
+.list-item-light {
+    color: #fff;
+}

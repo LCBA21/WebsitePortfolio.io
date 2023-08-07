@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <link rel="stylesheet"  href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+  <script src="app.js" defer></script>
+  <script src="https://kit.fontawesome.com/8813b82eee.js" crossorigin="anonymous" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="Section-ColorOne">
+
+       
+        
+        <div id="hearder">
+            <div class="container">
+                <nav id="nav-dark" style="font-family: 'Inter',sans-serif;">
+                    <img src="Images/OfficialLogo.png" class="logo">
+                   
+                    <div class="hamburger">
+                        <div id="myNav" class="overlay">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <div class="overlay-content">
+                                
+                                    <li><a href="#hearder">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#contact">Contact </a></li>
+                                
+                            </div>
+                          </div>
+                          
+                          
+                            <span  class="hamburger-span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                          </div>
+                    
+                    <ul id="sidemenu">
+                        <li><a href="#hearder">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact </a></li>
+        
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+
+                <div class="">
+                    <h1></h1>
+                    <i  class="bi bi-brightness-high-fill Dark-light"  id="toggleDark"></i>
+                </div>
+
+                <div class="header-text" >
+                    <h1><span style="color: #ababab;">I'am</span><br> <span>Back-End</span><br>Developer </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section >
+<!-- About Us starts here --> 
+<div id="about">
+    <div class="container" style="font-family: 'Inter',sans-serif;">
+    <div class="row"> 
+    <div class="about-col-1">
+    <h1 class=" sub-title-smallScreen" style="text-align: center;">About Me</h1>
+    <img src="Images/LeZt.jpg">
+    </div>
+
+    <div class="about-col-2">
+        <h1 class="sub-title" style="text-align: center;">About Me</h1>
+        <p> I am a recent software development graduate from IIE Rosebank College,
+            During my studies, I gained expertise in various programming languages such as Java, C#, and Python. 
+            I have also completed projects that involved developing web applications, mobile applications,
+             and database management systems.
+        </p>
+    
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links " onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab " id="skills">
+            <ul>
+                <li><span>Java</span><br> Designing Web/App Interfaces</li>
+                <li><span>C#</span><br> .Net Core, MVC</li>
+                <li><span>Android</span><br> Building Android apps</li>
+            </ul>
+          </div>
+    
+          <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2023 - Current</span><br> Software Development Internship</li>
+            </ul>
+          </div>
+    
+          <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2020 - 2022</span><br> Diploma in Information Technology in Software Development<br>Rosebank College</li>
+            </ul>
+          </div>
+       </div>
+     </div>
+    </div>
+ </div>
+    <!-- About section ends here -->
+    </section>
+
+
+
+    <section>
+<!-- Services section starts here -->
+<div id="services">
+    <div class="container" style="font-family: 'Inter',sans-serif;">
+        <h1 class="sub-title-Services" style="text-align: center;">My Services</h1>
+    <div class="services-list">
+    <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p> I am responsible for building and maintaining the server, databases, and application logic that power the website's functionality. 
+            This includes handling data storage, user authentication, server communication,
+          and other core components to ensure the smooth functioning of the website or web application,</p>
+           <a href="#">learn more</a>
+    </div>
+
+    <div> 
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>UI/UX Design</h2>
+        <p>Primary focus is integrating the frontend and backend aspects of the application. 
+            I collaborate with frontend developers and designers to ensure that user interfaces are effectively connected to the backend functionality. 
+            Additionally,As a backend developer i am responsible for optimizing data processing, implementing APIs, 
+            and handling server-side validations to enhance the overall user experience and ensure a seamless interaction between the user and the application.</p>
+           <a href="#">learn more</a>
+    </div>
+
+    <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>As a  backend developer i am responsible for designs, develops, and optimizes the server-side components of an application, 
+            including logic, APIs, databases, security, and integrations, to ensure efficient, secure,
+             and seamless communication between the user interface and external services.</p>
+           <a href="">learn more</a>
+    </div>
+
+    </div>
+    
+    </div>
+</div>
+</section>
+
+
+
+<section class="Section-ColorOne">
+<!-- portfolio section -->
+
+<div id="portfolio">
+    <div class="container" style="font-family: 'Inter',sans-serif;">
+    <h1 class="sub-title-Portfolio" style="text-align: center;">Portfolio</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="Images/Dronesite2.png" alt="">
+            <div class="layer">
+                <h3>DRONOTICZ</h3>
+                <p>Drones brought to you by DRONOTICZ.
+                    Welcome to the world of Drones
+                </p>
+                <a href="https://lcba21.github.io/DRONOTICZ.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div> 
+        
+        <div class="work">
+            <img src="Images/Type.png" alt="">
+            <div class="layer">
+                <h3>Typing Titians</h3>
+                <p>Learn More.
+                    
+                </p>
+                <a href="https://github.com/LCBA21/Typing_Titians"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div> 
+
+        <div class="work">
+            <img src="Images/Question.png" alt="">
+            <div class="layer">
+                <h3>Guess What?</h3>
+                <p>Learn More.
+                   
+                </p>
+                <a href="https://github.com/LCBA21/Simple-Games"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div> 
+        </div>
+        <a href="#" class="btn" >See More</a>
+        </div>
+    </div>
+</section>
+
+
+
+<section>
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container" style="font-family: 'Inter',sans-serif;">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title-Contact" >Contact Me</h1>
+                    <p> <i class="fa-regular fa-paper-plane"></i> lesiban56@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>+27 66 265 9554</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/lesibana-ngoepe-5668a0184/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/LCBA21"><i class="fa-brands fa-github"></i></a>
+
+                            <!-- <a href="#" class="fa fa-linkedin"></a> -->
+
+                    </div>
+                    <a href="Images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; LCBA. Made by Soft-Tech</p>
+        </div>
+    </div>
+</section>
+
+<!-- skills section nav -->
+<script>
+var tablinks =document.getElementsByClassName("tab-links")
+var tabcontents =document.getElementsByClassName("tab-contents")
+
+function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+}
+
+for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+}
+
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+
+}
+</script>
+<!--skills section nav  -->
+
+<!-- nav -->
+<script>
+var sidemenu=document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right ="0";
+}
+
+function closemenu(){
+    sidemenu.style.right ="-200px";
+}
+</script>
+
+<!-- nav -->
+
+
+<!-- hamburger -->
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
+    <!-- hamburger -->
+
+
+
+
+<script>
+
+
+</script>
+
+</body>
+</html>

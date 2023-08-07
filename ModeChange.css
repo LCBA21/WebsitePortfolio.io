@@ -1,0 +1,36 @@
+.Dark-light{
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    left: 13.5%;
+    transform: translate(-50%,-50%);
+    }
+
+    /* 414 */
+    @media (max-width:300px) {
+
+        .Dark-light {
+            font-size: 20px;
+            cursor: pointer;
+            position: absolute;
+            top: 13%;
+            left: 28.5%;
+            transform: translate(-50%,-50%);
+        }
+        
+    }
+
+    
+@media (max-width:667px) {
+
+    .Dark-light {
+        font-size: 20px;
+        cursor: pointer;
+        position: absolute;
+        top: 15%;
+        left: 28.5%;
+        transform: translate(-50%,-50%);
+    }
+    
+}

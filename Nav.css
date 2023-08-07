@@ -1,0 +1,241 @@
+:root{
+    /* Color */
+    --primary-color:#ff004f;
+    --secondary-color:#262626;
+    
+    
+    /* Position */
+    --direction:flex;
+    --default-Display:none;
+    --position-center:center;
+    --block-display:inline-block;
+    --width:100%;
+    --transition-time:0.5s;
+    }
+    
+
+#hearder{
+    width: var(--width);
+    height: 100vh;
+    /* background-image: url(Images/background.png); */
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .container{
+    padding: 10px 10%;
+    }
+    
+ 
+
+
+nav{
+    display: var(--direction);
+    align-items: var(--position-center);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    
+    .logo{
+        width: 140px;
+    }
+    
+    nav ul li {
+        display: var(--block-display);
+        list-style: var(--default-Display);
+        margin: 10px 10px;
+    }
+    
+    nav ul li a{
+    color: #fff;
+    text-decoration: var(--default-Display);
+    font-size: 30px;
+    position: relative;
+    }
+    
+    /* Hover effect */
+    
+    nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:var(--primary-color);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: var(--transition-time);
+    }
+    
+    nav ul li a:hover:after{
+        width: var(--width);
+    }
+    
+    .header-text{
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: var(--position-center);
+        font-family: 'Inter',sans-serif Black;
+    }
+    
+    .header-text h1{
+    font-size: 180px;
+    margin-top: 5px;
+    text-align: var(--position-center);
+    font-family:  'Inter',sans-serif;
+    }
+    
+    .header-text h1 span{
+    color:var(--primary-color);
+    
+    }
+
+    #sidemenu{
+
+        display: block;
+     }
+    
+
+     .hamburger{
+
+        display: none;
+      }
+
+      .hamburger-span{
+
+        display: none;
+      }
+
+
+      /* .about-col-2 {
+        font-size: 18px;
+    } */
+
+    @media   (max-width:600px){
+
+      .about-col-2 {
+        font-size: 18px;
+
+    }
+
+    @media   (max-width:667px){
+
+        
+        .hamburger{
+
+            display: block;
+        }
+        .hamburger-span{
+
+            display: block;
+            margin-left: 260px;
+            margin-top: -79px;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .overlay-content{
+
+            text-decoration: none;
+            list-style: none;
+            font-family:  'Inter',sans-serif;
+
+
+        }
+
+        .about-col-1 img {
+
+          width: 333px;          ;
+        }
+
+        
+
+        nav ul li {
+            /* display: var(--block-display); */
+            list-style: var(--default-Display);
+            text-decoration: none;
+            margin: 10px 10px;
+        }
+
+
+      #sidemenu{
+        display: none;
+
+      }
+
+      .about-col-2 {
+        font-size: 18px;
+    }
+
+
+             .header-text{
+            margin-top: 10px;
+            font-size: 51px;
+            text-align: var(--position-center);
+            font-family: 'Inter',sans-serif Black;
+        }
+
+            .header-text h1{
+            font-size: 65px;
+            margin-top: 50%;
+            text-align: var(--position-center);
+            font-family:  'Inter',sans-serif;
+
+            }
+
+             .header-text h1 span{
+                color:var(--primary-color);
+                font-size: 65px;
+                } 
+
+
+                /* hamburger */
+
+                  
+            .overlay {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0, 0.9);
+                overflow-x: hidden;
+                transition: 0.5s;
+              }
+              
+              .overlay-content {
+                position: relative;
+                top: 25%;
+                width: 100%;
+                text-align: center;
+                margin-top: 30px;
+              }
+              
+              .overlay a {
+                padding: 8px;
+                text-decoration: none;
+                font-size: 36px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+              }
+              
+              .overlay a:hover, .overlay a:focus {
+                color: #f1f1f1;
+              }
+              
+              .overlay .closebtn {
+                position: absolute;
+                top: 20px;
+                right: 45px;
+                font-size: 60px;
+              }
+
+    }
+
+
+ 
+  }
+
+    
